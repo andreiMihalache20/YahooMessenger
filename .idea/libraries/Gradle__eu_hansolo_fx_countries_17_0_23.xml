@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: eu.hansolo.fx:countries:17.0.23" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="eu.hansolo.fx" artifactId="countries" version="17.0.23" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo.fx/countries/17.0.23/f747cd895ec579f48febe0633f6b2bad5352759b/countries-17.0.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo.fx/countries/17.0.23/9859c7d435027311cf52459eb8012f0b3b7248d0/countries-17.0.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

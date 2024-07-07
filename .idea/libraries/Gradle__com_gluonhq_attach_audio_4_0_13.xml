@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gluonhq.attach:audio:4.0.13" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.gluonhq.attach" artifactId="audio" version="4.0.13" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq.attach/audio/4.0.13/5f799f84ebfa1749e9a0d5d1c98258a6fa6d8252/audio-4.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq.attach/audio/4.0.13/81f60b0bd67429eaf474970767da1435afd879f4/audio-4.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: eu.hansolo:toolboxfx:17.0.33" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="eu.hansolo" artifactId="toolboxfx" version="17.0.33" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo/toolboxfx/17.0.33/116c64ce80c19835df252651c779bcfa6104365a/toolboxfx-17.0.33.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo/toolboxfx/17.0.33/c262e7884676890fee8ee77b71d406a48202eafb/toolboxfx-17.0.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

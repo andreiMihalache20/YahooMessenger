@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="630.0" style="-fx-background-color: purple;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SocialNetwork.HomeController">
+    <tabs>
+        <Tab text="Inbox">
+            <Pane prefHeight="471.0" prefWidth="623.0">
+            <HBox prefHeight="400.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+                <children>
+                    <TableView fx:id="messageTableView" onMouseMoved="#handleSelectMessage" onScroll="#handleScroll" prefHeight="400.0" prefWidth="641.0">
+                        <columns>
+                            <TableColumn fx:id="messageEmailCol" prefWidth="75.0" text="Friend:" />
+                            <TableColumn fx:id="messageTextCol" prefWidth="208.19998931884766" text="Message" />
+                            <TableColumn fx:id="messageDateCol" prefWidth="151.19998168945312" text="DATA" />
+                        </columns>
+                    </TableView>
+                    <VBox prefHeight="400.0" prefWidth="246.0">
+                     <children>
+                        <Separator opacity="0.0" orientation="VERTICAL" prefHeight="530.0" prefWidth="42.0" style="-fx-background-color: purple;" />
+                        <Separator opacity="0.0" prefHeight="45.0" prefWidth="630.0" style="-fx-background-color: purple;" />
+                     </children></VBox>
+                </children>
+            </HBox>
+                <TableView fx:id="friendsTableView" layoutX="488.0" layoutY="14.0" onMousePressed="#handleSelectUser" prefHeight="276.0" prefWidth="130.0">
+                    <columns>
+                        <TableColumn fx:id="mailFriendCol" prefWidth="129.20001220703125" text="Friends:" />
+                    </columns>
+                </TableView>
+                <TextField fx:id="emailTextField" layoutY="400.0" prefHeight="26.0" prefWidth="121.0" promptText="Friend's Email" />
+                <TextField fx:id="messageTextField" layoutX="121.0" layoutY="400.0" prefHeight="26.0" prefWidth="211.0" promptText="Message" />
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="399.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="107.0" text="Send message" textAlignment="CENTER" />
+            <Label fx:id="loggedInUserNameLabel" layoutX="499.0" layoutY="413.0" prefHeight="17.0" prefWidth="109.0" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="491.0" layoutY="308.0" mnemonicParsing="false" onAction="#showFriends" prefHeight="25.0" prefWidth="125.0" text="Show FriendsList" textAlignment="CENTER" />
+            <TextField fx:id="limitTextField" layoutX="493.0" layoutY="360.0" prefHeight="26.0" prefWidth="121.0" promptText="Set Message Limit" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="399.0" mnemonicParsing="false" onAction="#setLimit" prefHeight="25.0" prefWidth="107.0" text="Set Limit" textAlignment="CENTER" />
+            </Pane>
+        </Tab>
+        <Tab fx:id="friendRequestsTab" text="FriendRequests">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                <fx:include source="friendrequests-table.fxml" />
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/YahooMessenger.iml" filepath="$PROJECT_DIR$/.idea/YahooMessenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YahooMessengerRemake.iml" filepath="$PROJECT_DIR$/YahooMessengerRemake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YahooMessengerRemake.main.iml" filepath="$PROJECT_DIR$/.idea/modules/YahooMessengerRemake.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YahooMessengerRemake.test.iml" filepath="$PROJECT_DIR$/.idea/modules/YahooMessengerRemake.test.iml" />
+    </modules>
+  </component>
+</project>

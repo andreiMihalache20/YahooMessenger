@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox prefHeight="470.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SocialNetwork.FriendrequestsController">
+    <children>
+        <TableView fx:id="tableView" onMousePressed="#handleSelectUser" prefHeight="470.0" prefWidth="557.0">
+            <columns>
+                <TableColumn fx:id="emailCol" minWidth="0.0" prefWidth="303.1999969482422" text="Email" />
+            <TableColumn fx:id="dateCol" prefWidth="194.0" text="Date" />
+            </columns>
+        </TableView>
+      <AnchorPane prefHeight="470.0" prefWidth="185.0">
+         <children>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="143.0" mnemonicParsing="false" onAction="#onDeclineButtonClick" prefHeight="26.0" prefWidth="64.0" text="DECLINE" textAlignment="CENTER" />
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="67.0" mnemonicParsing="false" onAction="#onAcceptButtonClick" prefHeight="26.0" prefWidth="65.0" text="ACCEPT" textAlignment="CENTER" />
+                <TextField fx:id="emailTextField" layoutX="7.0" layoutY="268.0" prefHeight="26.0" prefWidth="114.0" promptText="email" />
+                <Label layoutX="8.0" layoutY="29.0" prefHeight="18.0" prefWidth="122.0" text="FriendRequest Info">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="235.0" prefHeight="18.0" prefWidth="114.0" text="ADD FRIEND">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="308.0" mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="26.0" prefWidth="95.0" text="Send request" textAlignment="CENTER" />
+            <TextField fx:id="fromEmailTextField" layoutX="7.0" layoutY="109.0" prefHeight="26.0" prefWidth="114.0" promptText="EmailRequest" />
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="370.0" mnemonicParsing="false" onAction="#updateRequests" prefHeight="26.0" prefWidth="114.0" text="ShowRequests" textAlignment="CENTER" textFill="#5d0696" />
+         </children>
+      </AnchorPane>
+    </children>
+</HBox>

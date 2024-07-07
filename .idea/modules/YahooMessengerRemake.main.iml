@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="YahooMessengerRemake:main" external.linked.project.path="$MODULE_DIR$/../../YahooMessengerRemake" external.root.project.path="$MODULE_DIR$/../../YahooMessengerRemake" external.system.id="GRADLE" external.system.module.group="com.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/../../YahooMessengerRemake/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../YahooMessengerRemake/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../YahooMessengerRemake/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../YahooMessengerRemake/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-fxml:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-web:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-media:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-media:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:17.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.controlsfx:controlsfx:11.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.dlsc.formsfx:formsfx-core:11.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:6.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: net.synedra:validatorfx:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.kordamp.ikonli:ikonli-javafx:12.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: eu.hansolo:tilesfx:17.1.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.postgresql:postgresql:42.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:6.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.kordamp.ikonli:ikonli-core:12.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl-io:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl-entity:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl-gameplay:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl-scene:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.almasb:fxgl-core:17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq.attach:lifecycle:4.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:6.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq.attach:storage:4.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq.attach:util:4.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.gluonhq.attach:audio:4.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.12.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: eu.hansolo.fx:countries:17.0.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: eu.hansolo.fx:heatmap:17.0.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: eu.hansolo:toolboxfx:17.0.33" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: eu.hansolo:toolbox:17.0.35" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.checkerframework:checker-qual:3.31.0" level="project" />
+  </component>
+</module>

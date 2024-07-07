@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.almasb:fxgl-scene:17.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.almasb" artifactId="fxgl-scene" version="17.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.almasb/fxgl-scene/17.2/a17ea10194e806c1557913eb51b0de0c10ad3561/fxgl-scene-17.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.almasb/fxgl-scene/17.2/f0d8f8be7e41172ddf3f49fd41c156ed4d17b412/fxgl-scene-17.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: eu.hansolo.fx:heatmap:17.0.12" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="eu.hansolo.fx" artifactId="heatmap" version="17.0.12" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo.fx/heatmap/17.0.12/2d6d23c3f8dbd05ffb55650308fd50342a2247f/heatmap-17.0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.hansolo.fx/heatmap/17.0.12/65eda9de0cc729b9a72f9881337cd89c24283aa/heatmap-17.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
